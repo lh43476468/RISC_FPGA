@@ -41,6 +41,6 @@ RISC_FPGA 基于FPGA的简单16位RISC系统复现
     * 寄存器模块  `RISC_Register.v`<br>
     对寄存器的访问存储提供控制。<br>
 * 测试文件`testbench.v`<br>
-调用程序存储器内指令，生产0、1、2、3的循环输出。<br>
+调用程序存储器内指令，生产01/10的循环输出。<br>
 * 约束文件`system.xdc`<br>
 约束时钟和led输出。<br>
